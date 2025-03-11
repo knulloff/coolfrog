@@ -13,7 +13,7 @@ export default defineConfig({
   // server: {
   //   proxy: {
   //     "/api": {
-  //       target: "https://startapbot.vercel.app",
+  //       target: "http://46.101.178.126",
   //       changeOrigin: true,
   //     },
   //   },
