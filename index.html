@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STARFROG🐸</title>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+      if (!window.Telegram) {
+        console.error("Telegram Web App SDK failed to load.");
+        // Handle the error or provide a fallback UI
+      }
+    </script>
+
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -26,17 +30,22 @@
     <!-- End Google Tag Manager -->
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main>
+        <!-- Your app content will be injected here -->
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
+
     <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
+    <noscript>
+      <iframe
         src="https://www.googletagmanager.com/ns.html?id=GTM-PKZG3L8R"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
+      ></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>
