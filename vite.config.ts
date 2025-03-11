@@ -13,7 +13,7 @@ export default defineConfig({
   // server: {
   //   proxy: {
   //     "/api": {
-  //       target: "http://clicker-game-api.me",
+  //       target: "https://startapbot.vercel.app",
   //       changeOrigin: true,
   //     },
   //   },
