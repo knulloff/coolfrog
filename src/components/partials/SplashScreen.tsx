@@ -5,7 +5,7 @@ import YoutubeIcon from "../icons/YoutubeIcon";
 const socialLinks = [
   {
     title: "Telegram",
-    url: "#",
+    url: "https://t.me/starfrogofficial",
     icon: TelegramIcon,
   },
   {
@@ -15,7 +15,7 @@ const socialLinks = [
   },
   {
     title: "Twitter",
-    url: "#",
+    url: "https://x.com/STARFROGoff?t=tnjs9nwZFYZXT38uo4fbiA&s=09",
     icon: TwitterIcon,
   },
 ];
