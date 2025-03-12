@@ -3,7 +3,7 @@ export default function PlayOnYourMobile() {
     <div className="flex flex-col items-center justify-center gap-6 h-svh">
       <p className="text-2xl font-semibold uppercase">Play on your mobile</p>
       <img
-        src="/images/qrcode.png"
+        src="/images/qrcode2.png"
         alt="qrcode"
         className="object-contain max-w-xs rounded-xl"
       />
