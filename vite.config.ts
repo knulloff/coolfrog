@@ -12,8 +12,8 @@ export default defineConfig({
   },
   // server: {
   //   proxy: {
-  //     "/api": {
-  //       target: "http://46.101.178.126",
+  //     "/": {
+  //       target: "http://api.starfrog.host",
   //       changeOrigin: true,
   //     },
   //   },
