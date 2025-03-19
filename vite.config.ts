@@ -12,8 +12,8 @@ export default defineConfig({
   },
   // server: {
   //   proxy: {
-  //     "/": {
-  //       target: "http://api.starfrog.host",
+  //     "/api": {
+  //       target: "https://phpstack-1431949-5347014.cloudwaysapps.com/",
   //       changeOrigin: true,
   //     },
   //   },
