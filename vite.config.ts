@@ -13,7 +13,7 @@ export default defineConfig({
   // server: {
   //   proxy: {
   //     "/api": {
-  //       target: "https://starfrog.host",
+  //       target: "http://starfrog.host/api/public",
   //       changeOrigin: true,
   //     },
   //   },
