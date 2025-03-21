@@ -12,12 +12,12 @@ app.listen(PORT, () => {
   console.log(`Server is Fire at http://localhost:${PORT}`);
 });
 bot.command("start", (ctx) => {
-  return ctx.reply(`Play Cool Frog!`, {
+  return ctx.reply(`Let's Play starfrog🐸`, {
     reply_markup: {
       inline_keyboard: [
         [
           {
-            text: `Play Game`,
+            text: `Play Now!`,
             web_app: { url: `${APP_URL}/` },
           },
         ],
